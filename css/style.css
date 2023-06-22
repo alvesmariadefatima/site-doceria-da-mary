@@ -1,0 +1,83 @@
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: brown;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 30px;
+}
+
+.logotipo-site {
+    display: block;
+    margin: 0 auto; /* Define as margens automáticas para centralizar */
+    border-radius: 200px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */;
+    border: 2px solid brown;
+}
+
+a {
+    color: brown;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteudo-pagina-inicial {
+    font-size: 30px;
+}
+
+section {
+    background-color: white;
+    border: 2px solid brown;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+img {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+p {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+
