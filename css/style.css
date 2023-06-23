@@ -1,35 +1,35 @@
 body {
     background-color: lightpink;
 }
-
+        
 h1 {
     color: brown;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-
+        
 p {
     color: brown;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-    font-size: 30px;
+    font-weight: italic;
+    font-size: 20px;
 }
-
+        
 .logotipo-site {
     display: block;
     margin: 0 auto; /* Define as margens automáticas para centralizar */
     border-radius: 200px;
 }
-
+        
 nav {
     background-color: #f2f2f2;
     padding: 10px;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */;
+    justify-content: center; /* Centraliza horizontalmente */
     border: 2px solid brown;
 }
-
+        
 a {
     color: brown;
     padding: 20px;
@@ -38,11 +38,11 @@ a {
     font-weight: bold;
     text-align: center;
 }
-
+        
 .conteudo-pagina-inicial {
-    font-size: 30px;
+    font-size: 20px;
 }
-
+        
 section {
     background-color: white;
     border: 2px solid brown;
@@ -50,34 +50,96 @@ section {
     height: 50%;
     margin: 0 auto;
 }
-
+        
 img {
     display: block;
     margin: 0 auto;
     padding: 20px;
     border-radius: 200px;
 }
-
-h1, p {
+        
+p, h1 {
     text-align: center;
 }
-
+        
 img {
     display: inline-block;
     margin: 0 10px;
 }
-
+        
 img {
-    display: inline-block;
     margin-left: 10px;
     vertical-align: middle;
 }
-
+        
 p {
-    display: inline-block;
+    font-size: 20px;
     margin-left: 10px;
     vertical-align: middle;
 }
 
+.logotipo-instagram {
+    display: flex;
+    align-items: left;
+}
 
+.logotipo-instagram img {
+    margin-right: 10px;
+}
 
+.logotipo-facebook {
+    display: flex;
+    align-items: left;
+}
+
+.logotipo-facebook {
+    margin-right: 10px;
+}
+
+.logotipo-whatsapp {
+    display: flex;
+    align-items: left;
+}
+
+.logotipo-whatsapp {
+    margin-right: 10px;
+}
+
+/* Regras de mídia */
+
+@media only screen and (max-width: 600px) {
+    section {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section {
+        width: 90%;
+    }
+}
+
+nav {
+    border-radius: 200px;
+}
+
+section {
+    border-radius: 70px;
+}
+
+.logotipo-instagram,
+.logotipo-facebook,
+.logotipo-whatsapp {
+    display: inline-block;
+    margin-right: 10px; /* Ajuste o valor da margem conforme necessário */
+    justify-content: center;
+}
+
+.logotipo-instagram,
+.logotipo-facebook,
+.logotipo-whatsapp {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
